@@ -1,5 +1,11 @@
 # Introduction
 
+> **Disclaimer:** This book aims to analyse the purposes and propoerties of Blockchain technologies from an egineering point of view, without so much as requiring a technical IT background. This book is for you if you are intereseted in understanding the formalities of Blockchain, even if you are a beginner. While some exercises will be given in the [Rust](https://www.rust-lang.org/) programming language, these can be skipped entirely.
+
+By the end of this book, you should have an in-depth understanding of the techniques and processes that come together to create a Blockchain network and, if you followed the Rust exercises, have created one yourself.
+
+...
+
 A **blockchain** is essentially a *distributed system of concensus*. In simpler terms, you can view a blockchain as a network of machines, all comming together to aggree on a decision. This is complicated, because different machines might have a different view of the network. Consider the following example:
 
 ## High-shcool marble problem
