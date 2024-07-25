@@ -6,7 +6,7 @@ By the end of this book, you should have an in-depth understanding of the techni
 
 ...
 
-A **blockchain** is essentially a *distributed system of consensus*. In simpler terms, you can view a blockchain as a network of machines, all coming together to agree on a decision. This is complicated, because different machines might have a different view of the network. Consider the following example:
+A **blockchain** is essentially a *distributed system of consensus*. In simpler terms, you can view a blockchain as a network of machines, all coming together to agree on a decision. This is complicated, because different machines might have a different view of same the network. Consider the following example:
 
 ## High-school marble problem
 

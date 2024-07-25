@@ -1,12 +1,14 @@
 # A Brief History of Information
 
-Blockchain technologies can be seen as a continuation of Humanity's history of _shared storytelling: they are a way to mathematically come to consensus in a narrative, which allows us to share that story between multiple parties without it being changed.
+Blockchain technologies can be seen as a continuation of Humanity's history of _shared storytelling_: they are a way to mathematically come to consensus in a narrative, which allows us to share that story between multiple parties without it being changed.
 
 > **consensus**: a state where multiple parties come to an agreement.
 > 
-> ex: _How many marbles does Alice have? Alice says 3, Bob says 3 and Christie says 3. Alice, Bob and Christie have reached_ consensus.
+> ex: _How many marbles does Alice have? Alice says 3, Bob says 3 and Christie says 3. Alice, Bob and Christie have reached consensus._
 
 Blockchain differs from typical methods of consensus which are vulnerable to degradation over time through word of mouth. Even _written_ stories are not absolute and are subject to change through re-writings and translation. With Blockchain technologies, a narrative can[^1] be _absolute_ and forever fixed throughout time.
+
+---
 
 ## Web 1.0
 
@@ -24,12 +26,13 @@ With the Web growing as a utility came the rise of dynamic services such as emai
 
 However, each of these tenants has been violated time and time again, either because of logical mistakes[^2] or because it was simply more lucrative[^3] to do so.
 
-> While Blockchain cannot protect us from logical mistakes, it can protect us from such abuses of power as are inherent in a centralized system. This includes most importantly censorship
-and discrimination.
+> While Blockchain cannot protect us from logical mistakes, it can protect us from such abuses of power as are inherent in a centralized system. This includes most importantly censorship and discrimination.
 
 At the same time as the rise to prominence of dynamic services made the Web much, much more lucrative[^4], so did the threat level increase substantially, with cyberattacks becoming more prominent[^5]. This is something with which Web 2.0 struggles in particular since services are centralized and most importantly _opaque_: it is impossible to verify if a service provider is secure enough, you once again have no choice but to _trust_ them.
 
 ## Web 3.0
+
+---
 
 The decentralized Web. Built on top of strong cryptographic guarantees, this new Web lays the basis for trustless worldwide services which are not controlled by a centralized entity. Web 3.0 data does not need to make any trust assumptions, meaning it is possible to engineer services where your trust cannot be abused by a central entity: with a well thought-out system, anyone in the world can verify the origin and integrity of the data being served to them. 
 
