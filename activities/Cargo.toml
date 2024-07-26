@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["ex00"]
+members = ["ex00", "ex01"]
 
 [workspace.dependencies]
 log = "0.4.22"

@@ -41,7 +41,7 @@ impl Todo {
 // >
 // > Or if you want debug output
 // >
-// > `RUST_LOG=info cargo test -- --nocapture`
+// > `RUST_LOG=info cargo test`
 // >
 // > Run this now to make sure this activity compile on you machine! You should
 // > be greeted with the output:
