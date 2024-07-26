@@ -4,7 +4,7 @@ As discussed previously, Web 3.0 is _not_ a silver bullet. While it has many int
 
 ## Social Vulnerabilities
 
-While Web 3.0 provides safer guarantees in terms of integrity and authenticity of information, it is arguably _more_ vulnerable in it current state to the main type of cyberattacks as compared to Web 2.0: **social engineering**.
+While Web 3.0 provides safer guarantees in terms of integrity and authenticity of information, it is arguably _more_ vulnerable in it current state to the main type of cyberattack technique used in Web 2.0: **social engineering**.
 
 > **social engineering**: the manipulation of people into taking actions that compromise their security or privacy.
 >
@@ -27,7 +27,7 @@ Web 3.0's greatest strength is it's ability to provide trustless ways to execute
 
 As mentioned before, Blockchain technologies do not protect us from logical errors, and so we are still vulnerable to code exploits such as these. Even worse: nothing stops a malevolent actor from intentionally creating bad code that can later be exploited.
 
-This can be mitigated at the protocol level by allowing _anyone_ to inspect the code of Blockchain applications but this does not guarantee that a bug or exploit won't be missed[^2].
+This can be mitigated at the protocol level by allowing _anyone_ to inspect the code of Blockchain applications, but this does not guarantee that a bug or exploit won't be missed[^2].
 
 ## Inconsistencies in a Shared Narrative
 
@@ -37,7 +37,7 @@ At the core of Web 3.0 is the notion of shared narrative we discussed before. Yo
 
 What happens however when the rules to a common protocol are broken? This is typically the case during periods of intense community discourse. To continue on the example of The DAO, there was a strong divide in the Ethereum community at the time as to which was the best way to address the hack, or if it should be addressed at all.
 
-Some members of the community started believing the attacker had done nothing wrong: indeed, they had only been using the code as it was provided: it was a bit as if a bank had left their vaults out in the open, and the bankers had started posting blog posts on how to open it. To punish the thief would go against the principle of immutability of Blockchains: it would be like taking our great shared story, finding a passage we didn't like, and changing it into something else entirely. Now a part of that story is gone forever.
+Some members of the community believed the attacker had done nothing wrong: indeed, they had only been using the code as it was provided. It was a bit as if a bank had left their vaults out in the open and the bankers had started posting blog posts on how to open it. To punish the thief would go against the principle of immutability of Blockchains: it would be like taking our great shared story, finding a passage we didn't like, and changing it into something else entirely. Now a part of that story is gone forever.
 
 This divide into two camps led to two version of the same Blockchain:
 
@@ -48,7 +48,7 @@ It was as if all of a sudden your favorite character died in a series, and you a
 
 This is what is known as a **chain split**, and has happened in other chains as well (and again in Ethereum with _Ethereum POW_). 
 
-> It is important to realize that despite all its cryptographic guarantees and advanced game theory, Web 3.0 and Blockchain remains before all a _social construct_, and can be disrupted in periods of social turmoil. This is good because it allows for resistance to unfair change by dissident groups, something that is not so easy in the real world, but at times it can seriously hamper the stability of the network.
+> It is important to realize that despite all its cryptographic guarantees and advanced game theory, Web 3.0 and Blockchain remains before all a _social construct_, and can be disrupted in periods of social turmoil. This is good because it allows for resistance to unfair change by dissident groups, something that is not so easy in the real world, but at times it can seriously hamper the stability of these networks.
 
 ## What we can do better: solutions to these issues
 
