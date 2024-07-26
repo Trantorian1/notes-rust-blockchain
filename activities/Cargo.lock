@@ -107,6 +107,11 @@ dependencies = [
 [[package]]
 name = "ex01"
 version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "log",
+ "test-log",
+]
 
 [[package]]
 name = "humantime"

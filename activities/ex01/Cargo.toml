@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+log = { workspace = true }
+env_logger = { workspace = true }
+test-log = { workspace = true }
+
+[features]
+solutions = []

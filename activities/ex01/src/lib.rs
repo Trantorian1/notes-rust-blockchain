@@ -1,12 +1,14 @@
+mod solution;
+
 #[allow(dead_code)]
 // TODO:
 // > What is the main purpose of a Blockchain technologies?
 // >
 // > - a) To create digital currencies.
-// > - b) To achieve mathematical consensus in a narrative.
-// > - c) To replace traditional banking systems.
+// > - b) To replace traditional banking systems.
+// > - c) To achieve mathematical consensus in a narrative.
 // >
-fn question_0() -> char {
+pub fn question_0() -> char {
     todo!()
 }
 
@@ -14,146 +16,205 @@ fn question_0() -> char {
 // TODO:
 // > In the context of the high school marble problem, what does "consensus" mean?
 // >
-// >
 // > - a) When players finish the game.
 // > - b) When multiple parties come to an agreement on the state of the game.
 // > - c) When one player convinces others to give up their marbles.
 // >
-fn question_1() -> char {
+pub fn question_1() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > Which of the following is NOT true about Web 2.0 services?
 // >
+// > - a) Web 2.0 is centralized.
+// > - b) Web 2.0 requires trust in service providers
+// > - c) Web 2.0 is inherently cryptographically secure.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_2() -> char {
+pub fn question_2() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > What does it mean for Blockchain to be a "continuation of Humanity's history of
+// > shared storytelling"?
 // >
+// > - a) Blockchain is primarily used for writing fiction.
+// > - b) Blockchain allows for a fixed, unchangeable narrative over time.
+// > - c) Blockchain is vulnerable to degradation like oral traditions.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_3() -> char {
+pub fn question_3() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > Why is Web 3.0 arguably more democratic than Web 2.0?
 // >
+// > - a) It doesn't require trust in centralized entities.
+// > - b) It allows for direct voting on all decisions.
+// > - c) It's controlled by elected representatives.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_4() -> char {
+pub fn question_4() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > What is described as potentially the greatest hurdle for Web 3.0 to overcome?
 // >
+// > - a) Technical limitations of blockchain technology.
+// > - b) Government regulations.
+// > - c) Crypto-literacy of the general population.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_5() -> char {
+pub fn question_5() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > What are some ways to mitigate the risk of code exploits in blockchain applications?
 // >
+// > - a) By allowing anyone to inspect the code.
+// > - b) By using only professionally audited code.
+// > - c) By implementing strict regulations on developers.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_6() -> char {
+pub fn question_6() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > What event is an example of vulnerabilities in trusting code?
 // >
+// > - a) The Equifax data breach.
+// > - b) The Cambridge Analytica scandal.
+// > - c) The DAO attack.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_7() -> char {
+pub fn question_7() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > In the context of Blockchain, what is a "chain split"?
 // >
+// > - a) A method for increasing transaction speed by processing parallel chains.
+// > - b) A division of the community resulting in two competing versions of the blockchain.
+// > - c) A way to distribute mining rewards more fairly.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_8() -> char {
+pub fn question_8() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > What is the relationship between Web 3.0's cryptographic guarantees and its
+// > vulnerability to social engineering?
 // >
+// > - a) Cryptographic guarantees make Web 3.0 immune to social engineering.
+// > - b) Web 3.0 may be more vulnerable to social engineering due to its complexity.
+// > - c) Web 3.0 is equally as vulnerable to social engineering as Web 2.0.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_9() -> char {
+pub fn question_9() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > What paradox can you highlight regarding the trustless nature of Web 3.0?
 // >
+// > - a) Trustless systems require more trust from users.
+// > - b) The more trustless a system becomes, the less secure it is.
+// > - c) While transactions are trustless, users still need to trust the developers
+// >      who wrote the code.
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_10() -> char {
+pub fn question_10() -> char {
     todo!()
 }
 
 #[allow(dead_code)]
 // TODO:
+// > Which is a way to address the issue of diverging opinions in blockchain communities?
 // >
+// > - a) Exploring decentralized governance structures inspired by real-world solutions.
+// > - b) Implementing centralized control mechanisms.
+// > - c) Creating immutable rules that can never be changed
 // >
-// >
-// > - a)
-// > - b)
-// > - c)
-// >
-fn question_11() -> char {
+pub fn question_11() -> char {
     todo!()
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    pub fn sanity_check(c: char) {
+        if c != 'a' && c != 'b' && c != 'c' {
+            log::error!("Answer to a question can only be 'a', 'b', or 'c'");
+            panic!();
+        }
+    }
+
+    #[test]
+    fn sanity_check_0() {
+        sanity_check(question_0());
+    }
+
+    #[test]
+    fn sanity_check_1() {
+        sanity_check(question_1());
+    }
+
+    #[test]
+    fn sanity_check_2() {
+        sanity_check(question_2());
+    }
+
+    #[test]
+    fn sanity_check_3() {
+        sanity_check(question_3());
+    }
+
+    #[test]
+    fn sanity_check_4() {
+        sanity_check(question_4());
+    }
+
+    #[test]
+    fn sanity_check_5() {
+        sanity_check(question_5());
+    }
+
+    #[test]
+    fn sanity_check_6() {
+        sanity_check(question_6());
+    }
+
+    #[test]
+    fn sanity_check_7() {
+        sanity_check(question_7());
+    }
+
+    #[test]
+    fn sanity_check_8() {
+        sanity_check(question_8());
+    }
+
+    #[test]
+    fn sanity_check_9() {
+        sanity_check(question_9());
+    }
+
+    #[test]
+    fn sanity_check_10() {
+        sanity_check(question_10());
+    }
+
+    #[test]
+    fn sanity_check_11() {
+        sanity_check(question_11());
+    }
 }
