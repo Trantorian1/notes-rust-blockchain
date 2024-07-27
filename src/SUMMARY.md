@@ -11,7 +11,7 @@
 # Blockchain Architecture
 
 - [Introduction](./blockchain_architecture.md)
-- [P2P](./p2p.md)
+- [Information sharing and P2P](./p2p.md)
 - [State Machines](./state_machines.md)
 - [Blocks and Chains](./blocks_and_chains.md)
 - [Activity: building your own UTXO](./activity_2.md)
