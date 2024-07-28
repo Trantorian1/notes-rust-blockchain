@@ -8,13 +8,12 @@
 - [The Ugly: the pitfalls of Web 3.0](./the_ugly_the_pitfalls_of_web_3_0.md)
 - [Activity: your first activity](./activity_1.md)
 
-# Blockchain Architecture
+# Pier to Pier networking
 
-- [Introduction](./blockchain_architecture.md)
-- [Information sharing and P2P]()
-<!-- - [Inforamtion sharing and P2P](./p2p.md) -->
-- [State Machines](./state_machines.md)
-- [Blocks and Chains](./blocks_and_chains.md)
-- [Activity: building your own UTXO](./activity_2.md)
+- [Introduction](p2p.md)
+- [Chord](chord.md)
+- [Activity: building your own P2P part 1](./activity_2_a.md)
+- [Kademlia](Kademlia.md)
+- [Activity: building your own P2P part 2](./activity_2_b.md)
 
 # Appendix
