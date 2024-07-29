@@ -8,7 +8,7 @@
 - [The Ugly: the pitfalls of Web 3.0](./the_ugly_the_pitfalls_of_web_3_0.md)
 - [Activity: your first activity](./activity_1.md)
 
-# Pier to Pier networking
+# P2P networking
 
 - [Introduction](p2p.md)
 - [Chord](chord.md)
