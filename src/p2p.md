@@ -120,9 +120,11 @@ As you can see in figure 3, even if a single Node in a P2P network goes down, us
 
 ### 1. Speed
 
-While P2P networks allow for better _data resilience_ and avoid centralized points of failure, this sophistication comes at a cost: **performance**.
+While P2P networks allow for better _data resilience_ and avoid centralized points of failure, this sophistication can come at the cost of performance.
 
-> Decentralized networks are _inherently more complicated_ when compared to centralized alternatives. This typically results in significant slowdowns.
+Not all P2P networks are necessarily slower than centralized alternatives tough, and can actually prove to be faster in certain cases. This makes sense if you consider how a P2P network like BitTorrent break up the load of storing data across multiple Nodes in a network: instead of a single server storing the entirety of a file, each Node stores only a portion of each file.
+
+This in turn allows for massively parallel file downloads, which can be an advantage for popular files which are available over many different nodes. This kind of situation become more complicated for systems with stronger cryptographic guarantees, such as Blockchain, where the cost of computation generally outweighs the advantages of data being available across multiple Nodes in a network.
 
 <div style="text-align: center;">
 
@@ -141,9 +143,13 @@ _Fig. 4: Chart of Blockchain Time To Finality._ [source](https://chainspect.app/
 
 **T**ime **T**o **F**inality, or **TTF**, is a measure of how long it takes for information to be considered 'valid' on a Blockchain. As you can see in Fig. 4, current Blockchain P2P networks are still a far cry away from the instantaneous response times of centralized systems.
 
-### 2. Social requirements
+It is possible however to image a future where advances in algorithms and hardware have allowed Blockchain technologies to operate on a level comparable or even faster in certain cases than traditional Web 2.0 alternatives. This is already evidenced by networks such as Avalanche or Solana, although whether Solana is a decentralized network as of the time of writing is arguable.
 
-Another issue with these networks is that, as discussed previously on the subject of Blockchain, they are above all _social networks_. This means that a P2P network lives and dies by its users: unlike a centralized service, there is no corporate entity to pour in large sums of money to pay for server upkeep. If there are no users, and no Nodes, then there is no service.
+### 2. Initial adoption
+
+Another issue with these networks is that they are above all _social networks_. This means that a P2P network lives and dies by its users: unlike a centralized service, there is no corporate entity to pour in large sums of money to pay for server upkeep. If there are no users, and no Nodes, then there is no network. Conversely, the more users a P2P network has, the more effective it becomes.
+
+> This is know as the **Network Effect**, which states that a service gains additional value as more people use it. The inverse is also true, such that a service with a low user count has a lower value.
 
 This can be seen as a positive aspect, as P2P services naturally grow or shrink in response to their popularity, but it also means that it can be especially hard for a P2P network to take off in its infancy, when it only has very few Nodes.
 
