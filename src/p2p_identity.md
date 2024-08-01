@@ -1,10 +1,10 @@
-# Identity in P2P
+# Identity in P2P networks
 
 P2P networks consist of a _decentralized array of servers_. These Nodes are arranged around the world and owned by many different individuals. When you want to communicate with someone across the world, you can send them a letter (yes, very archaic): for that you need that person's address, which is a form of _idenity_ associated to that person. Similarly, if we want the Nodes in a P2P network to be able to communicate between each other, we need a way to identify them.
 
 > We cannot rely on existing techniques such as IP addresses, since they need to be recognized by a _centralized_ entity to function. Ideally, we want our P2P network to be able to keep functioning _independently of the rest of the web._
 
-As an alternative, each Node issues itself a random number, which acts as a **G**lobal **U**nique **I**dentifier, or **GUID**. But how is this possible? what if two _different Nodes_ issue themselves the _same GUID_? This is known as a **collision**.
+As an alternative, each Node issues itself a random number, which acts as a **G**lobal **U**nique **I**dentifier, or **GUID**. But how is this possible? What if two _different Nodes_ issue themselves the _same GUID_? This is known as a **collision**.
 
 > A **collision** in cryptographic terms refers to when a function gives the same output for two different inputs. This is an issue when we need outputs to be unique for identification purposes.
 >
@@ -81,20 +81,26 @@ While this might not seem like an issue at first, consider that at the moment on
 
 > Storing GUIDs in Keyspace also proves very useful for other reasons, as it allows us to operate on GUIDs and data hashes at the same time. For example, it allows us to define the _distance_ between a Node's GUID and the data hashes around it, which proves essential to many P2P algorithms such as [Kademlia](./Kademlia.md).
 
-It is therefore not enough for GUIDs to be stored in Worldspace in each node, we..
+It is therefore not enough for GUIDs to be stored in Worldspace in each node. We would instead like to be able to store GUIDs in Keyspace alongside the hashes of the data in the network.
 
 ![Servers in keyspace](./res/vector/p2p/keyspace2.png)
 
 <div style="text-align: center;">
 
-_Fig. 2: Moving GUIDs to Keyspace means we can operate on GUIDs and data hashes simultaneously._
+_Fig. 2: Moving GUIDs to Keyspace allows us to operate on GUIDs and data hashes simultaneously_
 
 </div>
 
 This is all very mathematical, so I will try and break it down into simpler terms:
 
-- The issue at hand is that we have two different functions, our _pseudorandom hash function_ used to generate GUIDs for each Node, and our _cryptographic hash function_ used to identify data stored on a P2P network. These functions are not necessarily compatible: our _pseudorandom hash function_ applies to objects in the real world, in Worldspace, while our _cryptographic hash function_ applies to information we store in a P2P network, in Keyspace.
+- The issue at hand is that we have two different functions: our _pseudorandom hash function_ used to generate GUIDs for each Node, and our _cryptographic hash function_ used to identify data stored on a P2P network. These functions are not necessarily compatible: our _pseudorandom hash function_ applies to objects in the real world, in Worldspace, while our _cryptographic hash function_ applies to information we store in a P2P network, in Keyspace.
 
 - Here, Keyspace can essentially be seen as all the possible value of our _cryptographic hash function_, and Worldspace as all the possible values of our _pseudorandom hash function_. These can be very different, which makes them incompatible. This is an issue, as discussed before.
 
 - Moving all GUIDs to Keyspace is essentially saying that we want our _cryptographic hash function_ to be able to generate all the possible value of our _pseudorandom hash function_, and vice versa. In the same ways that negative numbers are compatible with positive numbers, we want GUIDs to be compatible with data hashes.
+
+## Benefits of Identity in P2P
+
+Shared identity in a P2P network through GUIDs for Nodes and hashes for the data we store in our network allows for the easy and efficient exchange of information between Nodes, while the combination of GUIDs and data hashes into the same space allows for easy comparison and operations between the two.
+
+These are the first steps in the algorithms which form the base of the many existing P2P protocols, so it is important you grow familiar with them: they will be instrumental in understanding the following sections on [Chord](./chord.md) and [Kademlia](./Kademlia.md).
