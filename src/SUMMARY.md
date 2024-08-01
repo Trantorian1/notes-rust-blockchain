@@ -11,6 +11,7 @@
 # P2P networking
 
 - [Introduction](p2p.md)
+- [Identity in P2P](p2p_identity.md)
 - [Chord](chord.md)
 - [Activity: building your own P2P part 1](./activity_2_a.md)
 - [Kademlia](Kademlia.md)
