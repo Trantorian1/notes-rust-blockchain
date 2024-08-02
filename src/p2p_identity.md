@@ -10,7 +10,7 @@ As an alternative, each Node issues itself a random number, which acts as a **G*
 >
 > _Collisions are generally seen as vulnerabilities and a potential attack vector._
 
-Consider the following example: you and 4 of your friends are playing a guessing game. You each guess a random number between 1 and 4, and whoever manages to choose a unique number first wins. In this game, it is highly likely for there to be collisions in you answer because the space of possible answers is so small.
+Consider the following example: you and 4 of your friends are playing a guessing game. You each guess a random number between 1 and 4, and whoever manages to choose a unique number first wins. In this game, it is highly likely for there to be collisions in you answers because the space of possible answers is so small.
 
 Now imagine instead that you and your friends can guess any number between 0 and 1 million. The odds of two players guessing the same number becomes very low, to the point where it is _negligible_ (meaning this is so unlikely to happen we can ignore it).
 
@@ -32,7 +32,7 @@ Similarly, if you want to access some data stored in a P2P network, you need som
 
 > A **cryptographic hash function** is a function which satisfies the following properties:
 >
-> - Given any input it will return an output of fixed (small) length.
+> - Given any input it will return an output of fixed (usually small) length.
 > - The output of such a function should be _deterministic_.
 > - It should have a negligibly low probability of any _collision_ occurring.
 >
@@ -99,13 +99,13 @@ This is all very mathematical, so I will try and break it down into simpler term
 
 - The issue at hand is that we have two different data types: GUIDs, and data hashes. These data types are not necessarily compatible: GUIDs apply to objects in the real world, in Worldspace, while data hashes apply to information we store in a P2P network, in Keyspace.
 
-- Here, Worldspace can be seen as all the possible values of our _pseudorandom hash function_, and Keyspace as all the possible value of our _cryptographic hash function_. These can be very different, which makes them incompatible, like vectors and real number: this is an issue, as discussed before.
+- Here, Worldspace can be seen as all the possible values of our _pseudorandom hash function_, and Keyspace as all the possible value of our _cryptographic hash function_. These can be very different, which makes them incompatible, like vectors and real numbers: this is an issue, as discussed before.
 
 - We want the _cryptographic hash function_ we use to generate GUIDs to be compatible with the _pseudorandom hash function_ used to generate data hashes. In the same ways that negative numbers are compatible with positive numbers, we want GUIDs to be compatible with data hashes. 
 > **This can be achieved by using the same function to generate both GUIDs and data hashes.**
 
 ## Benefits of Identity in P2P Networks
 
-Shared identity in a P2P network through GUIDs for Nodes and hashes for the data we store in our network allows for the easy and efficient exchange of information between Nodes, while the combination of GUIDs and data hashes into the same space allows for easy comparison and operations between the two.
+Establishing identity in a P2P network through GUIDs for Nodes and hashes for the data we store in our network allows for the easy and efficient exchange of information between Nodes, while the combination of GUIDs and data hashes into the same space allows for easy comparison and operations between the two.
 
 These are the first steps in the algorithms which form the base of the many existing P2P protocols, so it is important you grow familiar with them: they will be instrumental in understanding the following sections on [Chord](./chord.md) and [Kademlia](./Kademlia.md).
