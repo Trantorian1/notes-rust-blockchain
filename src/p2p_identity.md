@@ -48,9 +48,9 @@ Let's break this down step by step.
 
 > Among many other things, cryptographic hash functions can be seen as a _guarantee of authenticity_. They allow us to represent the identity of any kind of data in a short and concise way that is unique to that input.
 
-Using a cryptographic hash function, we can generate unique identifiers for the information we want to store on our network. This is refereed to as **hashing**, which generates a unique **identifier** for that information.
+Using a cryptographic hash function, we can generate unique identifiers for the information we want to store on our network. This is refereed to as **hashing**, which generates a unique **identifier**, or **hash**, for that information.
 
-Now, if someone wants to access that information, they can hash it themselves and ask around the network until they find a Node which is storing that hash, at which point the Node will return the information associated to that hash.
+Now, if someone wants to access that information, they can generate its hash themselves and ask around the network until they find a Node which is storing that hash, at which point the Node will return the information associated with that hash.
 
 > We have essentially created a custom titling schema that allows us to easily retrieve the information which we store in our decentralized library of a P2P network.
 
@@ -61,13 +61,13 @@ So far we have seen:
 - How to identify Nodes using a GUID based off a _pseudorandom hash function_.
 - How to identify information stored on the network using _cryptographic hash functions_.
 
-This presents a major discrepancy however: how do we store GUIDs and the hashes of the information stored on our network (also referred to as _keys_)? Here we must begin by understanding two very important concepts: **Worldspace** and **Keyspace**.
+This presents a major discrepancy however: how do we handle GUIDs and the hashes of the information stored on our network (also referred to as _keys_)? Here we must begin by understanding two very important concepts: **Worldspace** and **Keyspace**.
 
 > **Worldspace** describes the set of all coordinates used to indicate the location of an object in the real, physical world.
 > 
 > **Keyspace** describes the set of all coordinates, or hashes, used to indicate a location in a P2P network.
 
-It is important to note that while GUIDs describe Nodes which are located in the physical world (ie: _Worldspace_), the hashes or keys of the data in our network are being stored in Keyspace.
+It is important to note that while GUIDs describe Nodes which are located in the physical world (ie: _Worldspace_), the hashes or keys of the data in our network are being stored in Keyspace. In more mathematical terms, you can see Worldspace as the set of all possible GUIDs, while Keyspace is the set of all possible hashes.
 
 ![Keyspace and Worldspace](./res/vector/p2p/keyspace1.png)
 
@@ -79,9 +79,13 @@ _Fig. 1: Worldspace is incompatible with Keyspace_
 
 While this might not seem like an issue at first, consider that at the moment only the nodes themselves are aware of their own GUID. _We will need a way to transmit GUIDs between nodes in the network_, similarly to how we might request other data.
 
-> Storing GUIDs in Keyspace also proves very useful for other reasons, as it allows us to operate on GUIDs and data hashes at the same time. For example, it allows us to define the _distance_ between a Node's GUID and the data hashes around it, which proves essential to many P2P algorithms such as [Kademlia](./Kademlia.md).
+This becomes complicated if GUIDs are a different data type as compared to the data hashes stored on the network, in Keyspace, as this would require special treatment. Ideally, we would like GUIDs to be compatible with Keyspace, so we can treat them the same way as the data hashes already present.
 
-It is therefore not enough for GUIDs to be stored in Worldspace in each node. We would instead like to be able to store GUIDs in Keyspace alongside the hashes of the data in the network.
+You can think of it in the same way as vectors are incompatible with real numbers: it makes no sense to add a vector and a number together, and so we need special rules to interact between these two worlds. This makes our problems more complicated. Similarly to how it would be simpler if we could consider all real numbers as vectors, we would like for GUIDs and data hashes to be compatible.
+
+> Storing GUIDs in Keyspace proves very useful for other reasons, as it allows us to operate on GUIDs and data hashes together. For example, it allows us to define the _distance_ between a Node's GUID and the data hashes around it, which proves essential to many P2P algorithms such as [Kademlia](./Kademlia.md).
+
+In general, we would like to be able to reason about GUIDs and data hashes together, not separately.
 
 ![Servers in keyspace](./res/vector/p2p/keyspace2.png)
 
@@ -93,13 +97,14 @@ _Fig. 2: Moving GUIDs to Keyspace allows us to operate on GUIDs and data hashes 
 
 This is all very mathematical, so I will try and break it down into simpler terms:
 
-- The issue at hand is that we have two different functions: our _pseudorandom hash function_ used to generate GUIDs for each Node, and our _cryptographic hash function_ used to identify data stored on a P2P network. These functions are not necessarily compatible: our _pseudorandom hash function_ applies to objects in the real world, in Worldspace, while our _cryptographic hash function_ applies to information we store in a P2P network, in Keyspace.
+- The issue at hand is that we have two different data types: GUIDs, and data hashes. These data types are not necessarily compatible: GUIDs apply to objects in the real world, in Worldspace, while data hashes apply to information we store in a P2P network, in Keyspace.
 
-- Here, Keyspace can essentially be seen as all the possible value of our _cryptographic hash function_, and Worldspace as all the possible values of our _pseudorandom hash function_. These can be very different, which makes them incompatible. This is an issue, as discussed before.
+- Here, Worldspace can be seen as all the possible values of our _pseudorandom hash function_, and Keyspace as all the possible value of our _cryptographic hash function_. These can be very different, which makes them incompatible, like vectors and real number: this is an issue, as discussed before.
 
-- Moving all GUIDs to Keyspace is essentially saying that we want our _cryptographic hash function_ to be able to generate all the possible value of our _pseudorandom hash function_, and vice versa. In the same ways that negative numbers are compatible with positive numbers, we want GUIDs to be compatible with data hashes.
+- We want the _cryptographic hash function_ we use to generate GUIDs to be compatible with the _pseudorandom hash function_ used to generate data hashes. In the same ways that negative numbers are compatible with positive numbers, we want GUIDs to be compatible with data hashes. 
+> **This can be achieved by using the same function for both GUIDs and data hashes.**
 
-## Benefits of Identity in P2P
+## Benefits of Identity in P2P Networks
 
 Shared identity in a P2P network through GUIDs for Nodes and hashes for the data we store in our network allows for the easy and efficient exchange of information between Nodes, while the combination of GUIDs and data hashes into the same space allows for easy comparison and operations between the two.
 
