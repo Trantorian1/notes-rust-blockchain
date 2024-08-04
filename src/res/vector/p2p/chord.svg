@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.45764282"
-     inkscape:cx="8092.5557"
-     inkscape:cy="1058.6859"
+     inkscape:zoom="0.64720468"
+     inkscape:cx="8746.0739"
+     inkscape:cy="538.46953"
      inkscape:window-width="2880"
      inkscape:window-height="1723"
      inkscape:window-x="0"
@@ -48,7 +48,8 @@
        dotted="false"
        gridanglex="30"
        gridanglez="30"
-       visible="true" />
+       visible="true"
+       enabled="false" />
     <inkscape:grid
        type="axonomgrid"
        id="grid2"
@@ -105,7 +106,7 @@
        id="page38"
        margin="0"
        bleed="0"
-       inkscape:export-filename="chord4.png"
+       inkscape:export-filename="./chord4.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <inkscape:page
@@ -122,6 +123,44 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker35"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path35" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
     <rect
        x="4773.2617"
        y="113.38583"
@@ -580,7 +619,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1278-1-4);display:inline;fill:#e6007a;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan9">0</tspan></text>
+             id="tspan1">0</tspan></text>
       </g>
       <g
          id="g1288-5-1"
@@ -598,7 +637,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1286-3-95);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan10">4</tspan></text>
+             id="tspan2">4</tspan></text>
       </g>
       <g
          id="g1290-4-1"
@@ -616,7 +655,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1291-1-04);display:inline;fill:#00e6b8;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan11">2</tspan></text>
+             id="tspan3">2</tspan></text>
       </g>
       <g
          id="g1291-4-6"
@@ -634,7 +673,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1292-1-87);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan12">6</tspan></text>
+             id="tspan4">6</tspan></text>
       </g>
       <g
          id="g1293-6-5"
@@ -652,7 +691,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1294-0-1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan13">3</tspan></text>
+             id="tspan5">3</tspan></text>
       </g>
       <g
          id="g1294-6-48"
@@ -670,7 +709,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1295-3-7);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan14">7</tspan></text>
+             id="tspan6">7</tspan></text>
       </g>
       <g
          id="g1296-7-9"
@@ -688,7 +727,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1297-4-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan15">5</tspan></text>
+             id="tspan7">5</tspan></text>
       </g>
       <g
          id="g1297-2-5"
@@ -706,7 +745,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1298-0-7);display:inline;fill:#1f00e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan16">1</tspan></text>
+             id="tspan8">1</tspan></text>
       </g>
     </g>
     <rect
@@ -761,7 +800,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1278);display:inline;fill:#e6007a;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan25">0</tspan></text>
+             id="tspan9">0</tspan></text>
       </g>
       <g
          id="g1288"
@@ -779,7 +818,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1286);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan26">4</tspan></text>
+             id="tspan10">4</tspan></text>
       </g>
       <g
          id="g1290"
@@ -797,7 +836,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1291);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan27">2</tspan></text>
+             id="tspan11">2</tspan></text>
       </g>
       <g
          id="g1291"
@@ -815,7 +854,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1292);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan28">6</tspan></text>
+             id="tspan12">6</tspan></text>
       </g>
       <g
          id="g1293"
@@ -833,7 +872,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1294);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan29">3</tspan></text>
+             id="tspan13">3</tspan></text>
       </g>
       <g
          id="g1294"
@@ -851,7 +890,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1295);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan30">7</tspan></text>
+             id="tspan14">7</tspan></text>
       </g>
       <g
          id="g1296"
@@ -869,7 +908,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1297);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan31">5</tspan></text>
+             id="tspan15">5</tspan></text>
       </g>
       <g
          id="g1297"
@@ -887,7 +926,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1298);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan32">1</tspan></text>
+             id="tspan16">1</tspan></text>
       </g>
     </g>
     <g
@@ -1214,46 +1253,41 @@
        x="1554"
        y="-2.8125e-06"
        inkscape:label="bg" />
+    <path
+       style="opacity:0.25;fill:#b96450;fill-opacity:1;stroke:#e5007a;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1808,39.687499 V 246.0625"
+       id="path28-9-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:0.25;fill:#b96450;fill-opacity:1;stroke:#e5007a;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1808,39.687499 72.9645,30.222815"
+       id="path4-6-2"
+       sodipodi:nodetypes="cc" />
     <g
-       id="g38"
+       id="g3"
        style="opacity:0.25">
       <path
-         style="fill:#b96450;fill-opacity:1;stroke:#e5007a;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 1808,39.687499 0,206.375001"
-         id="path28-9-3"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:#b96450;fill-opacity:1;stroke:#e5007a;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 1808,39.687499 72.9645,30.222815"
-         id="path4-6-2"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:#b96450;fill-opacity:1;stroke:#00e6b8;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#b96450;fill-opacity:1;stroke:#00e6b8;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="M 1911,143.00003 1806.6025,245.80375"
          id="path29-6"
          sodipodi:nodetypes="cc" />
       <path
          style="fill:#b96450;fill-opacity:1;stroke:#00e6b8;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 1911,143.00003 -30.2229,72.96451"
-         id="path31-4"
+         d="m 1911,143.00003 -206.375,-1e-5"
+         id="path30-0"
          sodipodi:nodetypes="cc" />
     </g>
-    <path
-       style="fill:#b96450;fill-opacity:1;stroke:#e6007a;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1808,39.687499 1910.8037,144.08495"
-       id="path5-1-7"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:#b96450;fill-opacity:1;stroke:#00e6b8;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1911,143.00003 -206.375,-1e-5"
-       id="path30-0"
-       sodipodi:nodetypes="cc" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="path1271-3-1"
        cx="1808"
        cy="142.875"
        r="105.83334" />
+    <path
+       style="fill:#b96450;fill-opacity:1;stroke:#e6007a;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 1808,39.687499 76.9066,78.098871"
+       id="path6"
+       sodipodi:nodetypes="cc" />
     <g
        id="g1289-3-0"
        transform="translate(402.23471)">
@@ -1270,7 +1304,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1278-1-8);display:inline;fill:#e6007a;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan33">0</tspan></text>
+           id="tspan17">0</tspan></text>
     </g>
     <g
        id="g1288-5-8"
@@ -1288,8 +1322,13 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1286-3-90);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan34">4</tspan></text>
+           id="tspan18">4</tspan></text>
     </g>
+    <path
+       style="opacity:1;fill:#b96450;fill-opacity:1;stroke:#00e6b8;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker35)"
+       d="m 1911,143.00003 -16.2268,39.17493"
+       id="path7"
+       sodipodi:nodetypes="cc" />
     <g
        id="g1290-4-7"
        transform="rotate(90,1606.8827,343.99234)">
@@ -1306,7 +1345,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1291-1-6);display:inline;fill:#00e6b8;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan35">2</tspan></text>
+           id="tspan19">2</tspan></text>
     </g>
     <g
        id="g1291-4-8"
@@ -1324,7 +1363,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1292-1-8);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan36">6</tspan></text>
+           id="tspan20">6</tspan></text>
     </g>
     <g
        id="g1293-6-7"
@@ -1342,7 +1381,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1294-0-7);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan37">3</tspan></text>
+           id="tspan21">3</tspan></text>
     </g>
     <g
        id="g1294-6-4"
@@ -1360,7 +1399,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1295-3-9);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan38">7</tspan></text>
+           id="tspan22">7</tspan></text>
     </g>
     <g
        id="g1296-7-7"
@@ -1378,7 +1417,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1297-4-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan39">5</tspan></text>
+           id="tspan23">5</tspan></text>
     </g>
     <g
        id="g1297-2-4"
@@ -1396,7 +1435,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1298-0-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="4773.2617"
            y="189.99275"
-           id="tspan40">1</tspan></text>
+           id="tspan24">1</tspan></text>
     </g>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05799999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
@@ -1451,7 +1490,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1278-1-27);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan41">0</tspan></text>
+             id="tspan25">0</tspan></text>
       </g>
       <g
          id="g1288-5"
@@ -1469,7 +1508,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1286-3-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan42">4</tspan></text>
+             id="tspan26">4</tspan></text>
       </g>
       <path
          style="opacity:1;fill:none;fill-opacity:1;stroke:#00e6b8;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:5.29167, 15.875;stroke-dashoffset:0;stroke-opacity:1"
@@ -1492,7 +1531,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1291-1-9);display:inline;fill:#00e6b8;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan43">2</tspan></text>
+             id="tspan27">2</tspan></text>
       </g>
       <g
          id="g1291-4"
@@ -1510,7 +1549,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1292-1-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan44">6</tspan></text>
+             id="tspan28">6</tspan></text>
       </g>
       <g
          id="g1293-6"
@@ -1528,7 +1567,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1294-0-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan45">3</tspan></text>
+             id="tspan29">3</tspan></text>
       </g>
       <g
          id="g1294-6"
@@ -1546,7 +1585,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1295-3-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan46">7</tspan></text>
+             id="tspan30">7</tspan></text>
       </g>
       <g
          id="g1296-7"
@@ -1564,7 +1603,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1297-4-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan47">5</tspan></text>
+             id="tspan31">5</tspan></text>
       </g>
       <g
          id="g1297-2"
@@ -1582,7 +1621,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect1298-0-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan48">1</tspan></text>
+             id="tspan32">1</tspan></text>
       </g>
       <g
          id="g56"
@@ -1601,7 +1640,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font Bold';white-space:pre;shape-inside:url(#rect57);display:inline;fill:#00e6b8;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
              x="4773.2617"
              y="189.99275"
-             id="tspan49">n</tspan></text>
+             id="tspan33">N</tspan></text>
       </g>
     </g>
   </g>
